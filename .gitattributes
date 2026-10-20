@@ -1,0 +1,3 @@
+* text=auto eol=lf
+THIRD_PARTY_NOTICES.md -text
+licenses/Universal-Robots-SDK-Terms.md -text

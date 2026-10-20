@@ -1,0 +1,7 @@
+{
+  "programNodes": [
+    { "excludeFromToolbox": false, "translationPath": "assets/i18n/", "iconURI": "assets/icons/pallet.svg", "behaviorURI": "pallet.js", "presenterURI": "main.js", "componentTagName": "hk-palletizing-pallet" },
+    { "excludeFromToolbox": true, "translationPath": "assets/i18n/", "iconURI": "assets/icons/pallet.svg", "behaviorURI": "phase.js", "presenterURI": "main.js", "componentTagName": "hk-palletizing-phase" }
+  ],
+  "applicationNodes": [], "smartSkills": [], "sidebarItems": [], "operatorScreens": []
+}

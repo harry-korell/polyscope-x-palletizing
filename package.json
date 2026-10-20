@@ -1,0 +1,28 @@
+{
+  "name": "polyscope-x-palletizing",
+  "version": "0.1.0-dev.9",
+  "private": true,
+  "description": "Palletizing assistant for PolyScope X 10.15",
+  "type": "module",
+  "engines": {
+    "node": ">=24.11.1 <25"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p web/tsconfig.json",
+    "build:web": "node web/build.mjs",
+    "build": "npm run typecheck && npm run build:web && npm run package",
+    "package": "package-urcap dist target",
+    "check": "npm run build"
+  },
+  "dependencies": {
+    "@universal-robots/contribution-api": "22.14.184",
+    "@universal-robots/ui-models": "22.14.64",
+    "@universal-robots/utilities-units": "22.14.15"
+  },
+  "devDependencies": {
+    "@types/node": "24.10.0",
+    "@universal-robots/urcap-utils": "2.4.2",
+    "esbuild": "0.25.12",
+    "typescript": "5.9.3"
+  }
+}

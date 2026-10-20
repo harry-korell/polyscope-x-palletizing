@@ -1,0 +1,14 @@
+metadata:
+  vendorID: harrykorell
+  vendorName: Harry Korell
+  urcapID: palletizing-assistant
+  urcapName: Palletizing Assistant
+  version: 0.1.0-dev.9
+  contactInfo: https://github.com/harry-korell/polyscope-x-palletizing
+  description: Palletizing and depalletizing assistant for PolyScope X
+  copyright: Copyright 2026 Harry Korell
+  licenseType: Proprietary
+artifacts:
+  webArchives:
+    - id: palletizing-web
+      folder: palletizing-web
